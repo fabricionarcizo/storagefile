@@ -169,7 +169,7 @@ public class MainFragment extends Fragment {
 
         if (position < 0 || position > mActorNames.size()) {
             Toast.makeText(getContext(),
-                    "Select a valid bike name.",
+                    "Select a valid actor name.",
                     Toast.LENGTH_LONG).show();
             return;
         }
@@ -224,8 +224,8 @@ public class MainFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(@NonNull ActorNameHolder holder, int position) {
-            String bikeName = mActorNames.get(position);
-            holder.bind(bikeName);
+            String actorName = mActorNames.get(position);
+            holder.bind(actorName);
         }
 
         @Override
@@ -257,8 +257,8 @@ public class MainFragment extends Fragment {
             });
         }
 
-        void bind(String bikeName) {
-            mActorName.setText(bikeName);
+        void bind(String actorName) {
+            mActorName.setText(actorName);
         }
 
     }
