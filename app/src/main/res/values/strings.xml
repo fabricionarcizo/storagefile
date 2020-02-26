@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StorageFile</string>
+    <string name="edit_text">Input the actor name</string>
+    <string name="write_button">Write Data</string>
+    <string name="read_button">Read Data</string>
+    <string name="delete_button">Delete Data</string>
+</resources>
