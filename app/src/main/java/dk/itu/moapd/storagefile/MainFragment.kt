@@ -166,7 +166,6 @@ class MainFragment : Fragment() {
             mAdapter = ActorNameAdapter(mActorNames)
             recycler_view.adapter = mAdapter
 
-            edit_text.setText("")
             mPosition = -1
 
             Toast.makeText(context,
@@ -208,8 +207,6 @@ class MainFragment : Fragment() {
 
                 it.setBackgroundColor(Color.parseColor("#EEEEEE"))
                 mPrevSelected = it
-
-                edit_text.setText(actorName)
             }
 
         }
